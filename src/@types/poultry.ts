@@ -4,6 +4,7 @@ export interface IPoultry {
   description: string;
   address: IPoultryAddress;
   active: boolean;
+  foundationDate: Date;
 }
 
 export interface IPoultryAddress {
