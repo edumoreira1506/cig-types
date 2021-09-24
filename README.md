@@ -15,5 +15,5 @@ Using yarn
 # Usage
 
 ```js
-import { IPoultry } from "@cig-platform/types";
+import { IBreeder } from "@cig-platform/types";
 ```

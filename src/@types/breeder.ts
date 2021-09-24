@@ -1,13 +1,13 @@
-export interface IPoultry {
+export interface IBreeder {
   id: string;
   name: string;
   description: string;
-  address: IPoultryAddress;
+  address: IBreederAddress;
   active: boolean;
   foundationDate: Date;
 }
 
-export interface IPoultryAddress {
+export interface IBreederAddress {
   city: string;
   province: string;
   street: string;
@@ -15,8 +15,8 @@ export interface IPoultryAddress {
   number: number;
 }
 
-export interface IPoultryUser {
+export interface IBreederUser {
   id: string;
   userId: string;
-  poultryId: string;
+  breederId: string;
 }
