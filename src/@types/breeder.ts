@@ -5,6 +5,7 @@ export interface IBreeder {
   address: IBreederAddress;
   active: boolean;
   foundationDate: Date;
+  profileImageUrl?: string;
 }
 
 export interface IBreederAddress {
