@@ -16,6 +16,12 @@ export interface IBreederAddress {
   number: number;
 }
 
+export interface IBreederImage {
+  id: string;
+  breederId: string;
+  imageUrl: string;
+}
+
 export interface IBreederUser {
   id: string;
   userId: string;
