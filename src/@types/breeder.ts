@@ -15,6 +15,8 @@ export interface IBreederAddress {
   street: string;
   zipcode: string;
   number: number;
+  latitude: number;
+  longitude: number;
 }
 
 export interface IBreederImage {
