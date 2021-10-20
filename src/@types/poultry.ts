@@ -17,3 +17,9 @@ export interface IPoultryVideos {
   walking?: string;
   presentation?: string;
 }
+
+export interface IPoultryImage {
+  id: string;
+  poultryId: string;
+  imageUrl: string;
+}
