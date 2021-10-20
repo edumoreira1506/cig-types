@@ -26,6 +26,13 @@ export interface IBreederImage {
   imageUrl: string;
 }
 
+export interface IBreederContact {
+  id: string;
+  breederId: string;
+  value: string;
+  type: string;
+}
+
 export interface IBreederUser {
   id: string;
   userId: string;
