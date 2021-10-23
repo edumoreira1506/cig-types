@@ -8,6 +8,7 @@ export interface IBreeder {
   profileImageUrl: string;
   mainVideo?: string;
   images?: IBreederImage[];
+  code: string;
 }
 
 export interface IBreederAddress {
