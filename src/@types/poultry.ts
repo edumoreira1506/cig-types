@@ -5,6 +5,13 @@ export interface IPoultry {
   colors: IPoultryColors;
   videos: IPoultryVideos;
   active: boolean;
+  description: string;
+  tail: string;
+  crest: string;
+  dewlap: string;
+  register: string;
+  name: string;
+  gender: string;
 }
 
 export interface IPoultryColors {
@@ -16,6 +23,7 @@ export interface IPoultryColors {
 export interface IPoultryVideos {
   walking?: string;
   presentation?: string;
+  measurement?: string;
 }
 
 export interface IPoultryImage {
