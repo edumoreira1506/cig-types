@@ -31,3 +31,14 @@ export interface IPoultryImage {
   poultryId: string;
   imageUrl: string;
 }
+
+export interface IPoultryRegister {
+  id: string;
+  poultryId: string;
+  description: string;
+  date: Date;
+  type: string;
+  files: {
+    fileName: string;
+  }[]
+}
