@@ -12,6 +12,7 @@ export interface IPoultry {
   register: string;
   name: string;
   gender: string;
+  genderCategory: string;
 }
 
 export interface IPoultryColors {
