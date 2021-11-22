@@ -1,3 +1,4 @@
+import { IMerchant } from '@types';
 import { Request } from 'express';
 
 import { ApiErrorType } from './errors';
@@ -15,4 +16,5 @@ export interface ErrorRequest {
 
 export interface AuthenticatedRequest extends Request {
   user?: IUser;
+  merchant?: IMerchant;
 }
