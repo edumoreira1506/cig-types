@@ -41,5 +41,6 @@ export interface IPoultryRegister {
   type: string;
   files: {
     fileName: string;
-  }[]
+  }[];
+  metadata?: Record<string, any>;
 }
