@@ -1,4 +1,5 @@
 export interface IPoultry {
+  number: number;
   id: string;
   type: string;
   birthDate: Date;
