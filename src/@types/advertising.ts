@@ -4,3 +4,19 @@ export interface IAdvertising {
   price: number;
   merchantId?: string;
 }
+
+export interface IAdvertisingQuestion {
+  id: string;
+  externalId: string;
+  content: string;
+  advertisingId: string;
+  createdAt: Date;
+}
+
+export interface IAdvertisingQuestionAnswer {
+  id: string;
+  externalId: string;
+  content: string;
+  questionId: string;
+  createdAt: Date;
+}
