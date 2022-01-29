@@ -5,3 +5,4 @@ export * from './poultry';
 export * from './request';
 export * from './user';
 export * from './advertising';
+export * from './deal';
