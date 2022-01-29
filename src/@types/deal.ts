@@ -2,8 +2,8 @@ export interface IDeal {
   id: string;
   sellerId: string;
   buyerId: string;
-  createdAt: string;
-  cancelled: string;
-  finished: string;
+  createdAt: Date;
+  cancelled: boolean;
+  finished: boolean;
   advertisingId: string;
 }
