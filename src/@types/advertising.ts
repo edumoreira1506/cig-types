@@ -3,6 +3,7 @@ export interface IAdvertising {
   externalId: string;
   price: number;
   merchantId?: string;
+  finished: boolean;
 }
 
 export interface IAdvertisingQuestion {
