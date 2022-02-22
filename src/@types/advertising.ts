@@ -21,3 +21,10 @@ export interface IAdvertisingQuestionAnswer {
   questionId: string;
   createdAt: Date;
 }
+
+export interface IAdvertisingFavorite {
+  id: string;
+  externalId: string;
+  advertisingId: string;
+  createdAt: Date;
+}
