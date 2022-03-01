@@ -6,4 +6,5 @@ export interface IUser {
   confirmPassword?: string;
   register: string;
   birthDate?: Date;
+  registerType: string;
 }
