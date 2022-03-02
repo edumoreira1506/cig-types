@@ -7,4 +7,5 @@ export interface IUser {
   register: string;
   birthDate?: Date;
   registerType: string;
+  externalId?: string;
 }
