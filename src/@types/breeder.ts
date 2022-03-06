@@ -9,6 +9,7 @@ export interface IBreeder {
   mainVideo?: string;
   images?: IBreederImage[];
   code: string;
+  createdAt: Date;
 }
 
 export interface IBreederAddress {
