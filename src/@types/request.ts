@@ -1,6 +1,6 @@
-import { IMerchant } from '@types';
 import { Request } from 'express';
 
+import { IMerchant } from '.';
 import { ApiErrorType } from './errors';
 import { IUser } from './user';
 
