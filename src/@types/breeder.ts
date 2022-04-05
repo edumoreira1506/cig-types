@@ -33,6 +33,7 @@ export interface IBreederContact {
   breederId: string;
   value: string;
   type: string;
+  createdAt: Date;
 }
 
 export interface IBreederUser {
