@@ -4,6 +4,7 @@ export interface IAdvertising {
   price: number;
   merchantId?: string;
   finished: boolean;
+  metadata: Record<string, any>;
 }
 
 export interface IAdvertisingQuestion {
