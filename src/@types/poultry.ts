@@ -15,7 +15,6 @@ export interface IPoultry {
   gender: string;
   genderCategory: string;
   forSale: boolean;
-  currentAdvertisingPrice: number | null;
 }
 
 export interface IPoultryColors {
