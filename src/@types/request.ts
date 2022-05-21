@@ -1,9 +1,6 @@
 import { Request } from 'express';
 
-import { IMerchant } from '.';
-import { ApiErrorType } from './errors';
-import { IUser } from './user';
-
+import { IMerchant, IBreeder, ApiErrorType, IUser } from '.';
 export interface AppRequest {
   ok: boolean;
 }
@@ -17,4 +14,5 @@ export interface ErrorRequest {
 export interface AuthenticatedRequest extends Request {
   user?: IUser;
   merchant?: IMerchant;
+  breeders?: IBreeder[];
 }
