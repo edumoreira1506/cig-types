@@ -1,4 +1,5 @@
 export interface IPoultry {
+  isAlive: boolean;
   number: number;
   id: string;
   type: string;
