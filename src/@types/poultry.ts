@@ -16,6 +16,10 @@ export interface IPoultry {
   gender: string;
   genderCategory: string;
   forSale: boolean;
+  momId?: string;
+  dadId?: string;
+  dad?: IPoultry;
+  mom?: IPoultry;
 }
 
 export interface IPoultryColors {
